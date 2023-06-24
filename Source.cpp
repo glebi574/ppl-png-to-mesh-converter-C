@@ -122,6 +122,6 @@ int main() {
   lua_close(L);
 
   std::cout << "Done" << std::endl;
-  std::cin.get();
+  system("pause");
   return 0;
 }
